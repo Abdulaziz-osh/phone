@@ -1,100 +1,54 @@
-body {
-    font-family: sans-serif;
-    background-color: black;
-}
-
-header {
-    justify-content: space-between;
-    padding:10px;
-    margin-bottom: 20px;
-    background-color: black;
-}
-
-.button {
-    background-color: #da1a1a;
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-    font-size: 24px;
-    border-radius: 10px;
-    margin-right: 5px;
-    margin-top:10px ;
-    float: right;
-    padding-left:50px ;
-    padding-right:50px ;
-    
-}
-
-nav {
-    padding: 25px 100px 25px 95px;
-    justify-content: space-between;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
-    background-color: black;
-    display: flex;
-}
-
-.nav-link {
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    justify-content: space-between;
-}
-
-h1 {
-    text-align: center;
-    color: white;
-    font-size: 36px;
-}
-
-h2 {
-    margin-left: 70px;
-}
-
-p {
-    font-size: 24px;
-    text-align: center;
-}
-
-.info {
-    flex-wrap: wrap;
-    width: 1100px;
-    margin: 0px;
-}
-
-article {
-    background-color: white;
-    padding:50px;
-    width: 400px;
-    margin:20px;
-    float: left;
-}
-
-.article-but {
-    text-decoration: none;
-    background-color: #b62929;
-    color: black;
-    font-size: 24px;
-    padding: 10px 75px 10px 75px;
-    margin-left: 60px;
-}
-
-footer {
-    background-color:#293eb6 ;
-    padding: 5px;
-}
-
-footer a {
-    margin-right:20px ;
-    float: left;
-}
-
-footer p {
-    font-size: 24px;
-    
-}
-
-.kol {
-    margin-left:30px ;
-}
-
+<html>
+    <head>
+        <title>BitMarket</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="/uploads/2021/02/logo_0_1613588860.svg">
+            <a class="button" href=""><b>Скидки</b></a>
+        </header>
+        <nav class="lol">
+            <a class="nav-link" href="">Каталог</a>
+            <a class="nav-link" href="">Оптом</a>
+            <a class="nav-link" href="">Доставка</a>
+            <a class="nav-link" href="">Возврат товара</a>
+        </nav>
+        <main>
+            <h1>Профессионалы советуют</h1>
+            <section class="info">
+                <article>
+                    <h2>Лэптоп для отдыха</h2>
+                    <img src="/uploads/2021/02/notebook-405755_1920_0_1613586011.jpg" width="400px" height="300px"/>
+                    <p>Samsung V145-S</p>
+                    <a class="article-but" href="">Подробнее</a>
+                </article>
+                <article>
+                    <h2>Как выбрать наушники</h2>
+                    <img src="/uploads/2021/02/music-1813100_1280_0_1613586010.png" width="330px" height="300px"/>
+                    <p>Поговорим о новинках</p>
+                    <a class="article-but" href="">Подробнее</a>
+                </article>
+                <article>
+                    <h2>Телефон мечты</h2>
+                    <img src="/uploads/2021/02/mobile-phone-1875813_1920_0_1613586011.jpg" width="400px" height="300px"/>
+                    <p>Apple iphone 13</p>
+                    <a class="article-but" href="">Подробнее</a>
+                </article>
+                <article>
+                    <h2>Техника для всего</h2>
+                    <img src="/uploads/2021/02/laptop-1483974_1920_0_1613586010.jpg" width="400px" height="300px"/>
+                    <p>И целого мира мало...</p>
+                    <a class="article-but" href="">Подробнее</a>
+                </article>
+            </section>
+            <img src="/uploads/2021/02/mobile-phone-1419275_1920_0_1613586010.jpg" width="960" height="270"/>
+        </main>
+        <footer>
+            <a class="kol" href=""><img src="/uploads/2021/02/icon-set-1142000_1280%201_0_1613586391.png" width="80px" height="80px"></a>
+            <a href=""><img src="/uploads/2021/02/Group%201_0_1613586391.png" width="80px" height="80px"></a>
+            <a href=""><img src="/uploads/2021/02/instagram-3288419_1280%201_0_1613586391.png" width="80px" height="80px"></a>
+            <p><b>Напиши — получи<br/> промокод!</b></p> 
+        </footer>
+    </body>
+</html>
